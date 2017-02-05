@@ -1,0 +1,87 @@
+[19:57:54] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[19:57:54] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_121]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_121]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_121]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_121]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedServer$2.run(DedicatedServer.java:85) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+[19:57:54] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[19:57:54] [Server thread/INFO]: Loading properties
+[19:57:54] [Server thread/INFO]: Default game type: SURVIVAL
+[19:57:54] [Server thread/INFO]: Generating keypair
+[19:57:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:57:54] [Server thread/INFO]: Using default channel type
+[19:57:55] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-dfe4ed1 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[19:57:55] [Server thread/ERROR]: Could not load 'plugins\ChestShop.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.loadPlugins(CraftServer.java:298) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.<init>(CraftServer.java:260) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.PlayerList.<init>(PlayerList.java:73) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:185) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[19:57:55] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[19:57:55] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[19:57:55] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.5;4651611
+[19:57:55] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[19:57:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:57:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:57:55] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:57:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:57:55] [Server thread/INFO]: Preparing level "world"
+[19:57:55] [Server thread/INFO]: Preparing start region for level 0 (Seed: 69160882195)
+[19:57:56] [Server thread/INFO]: Preparing spawn area: 17%
+[19:57:57] [Server thread/INFO]: Preparing spawn area: 59%
+[19:57:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1227004271191575186)
+[19:57:59] [Server thread/INFO]: Preparing spawn area: 45%
+[19:58:02] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[19:58:02] [Server thread/INFO]: Loading properties
+[19:58:02] [Server thread/INFO]: Default game type: SURVIVAL
+[19:58:02] [Server thread/INFO]: Generating keypair
+[19:58:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:58:02] [Server thread/INFO]: Using default channel type
+[19:58:02] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:58:02] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[19:58:02] [Server thread/WARN]: Perhaps a server is already running on that port?
+[19:58:02] [Server thread/INFO]: Stopping server
+igot_v1_11_R1 as the Bukkit adapter
+[19:58:00] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[19:58:01] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[19:58:01] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[19:58:01] [Server thread/INFO]: [WorldGuard] Loading region data...
+[19:58:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:58:01] [Server thread/INFO]: Done (5,911s)! For help, type "help" or "?"
+[19:58:15] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[19:58:15] [Server thread/INFO]: Loading properties
+[19:58:15] [Server thread/INFO]: Default game type: SURVIVAL
+[19:58:15] [Server thread/INFO]: Generating keypair
+[19:58:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:58:16] [Server thread/INFO]: Using default channel type
+[19:58:16] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[19:58:16] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
+[19:58:16] [Server thread/WARN]: Perhaps a server is already running on that port?
+[19:58:16] [Server thread/INFO]: Stopping server

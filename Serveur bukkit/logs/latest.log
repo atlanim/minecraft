@@ -1,0 +1,61 @@
+[21:09:15] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[21:09:15] [Server thread/INFO]: Loading properties
+[21:09:15] [Server thread/INFO]: Default game type: SURVIVAL
+[21:09:15] [Server thread/INFO]: Generating keypair
+[21:09:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:09:15] [Server thread/INFO]: Using default channel type
+[21:09:15] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-dfe4ed1 (MC: 1.11.2) (Implementing API version 1.11.2-R0.1-SNAPSHOT)
+[21:09:16] [Server thread/ERROR]: Could not load 'plugins\ChestShop.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:219) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.loadPlugins(CraftServer.java:298) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.v1_11_R1.CraftServer.<init>(CraftServer.java:260) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.PlayerList.<init>(PlayerList.java:73) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedPlayerList.<init>(SourceFile:14) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedServer.init(DedicatedServer.java:185) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.MinecraftServer.run(MinecraftServer.java:521) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_121]
+[21:09:16] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[21:09:16] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[21:09:16] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1.5;4651611
+[21:09:16] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v6.1.3-SNAPSHOT;c904242
+[21:09:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:09:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:09:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:09:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:09:16] [Server thread/INFO]: Preparing level "world"
+[21:09:16] [Server thread/INFO]: Preparing start region for level 0 (Seed: 69160882195)
+[21:09:17] [Server thread/INFO]: Preparing spawn area: 21%
+[21:09:18] [Server thread/INFO]: Preparing spawn area: 70%
+[21:09:18] [Server thread/INFO]: Preparing start region for level 1 (Seed: 1227004271191575186)
+[21:09:19] [Server thread/INFO]: Preparing spawn area: 51%
+[21:09:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: 1227004271191575186)
+[21:09:21] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[21:09:21] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[21:09:21] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[21:09:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1.5;4651611
+[21:09:21] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[21:09:21] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_11_R1 as the Bukkit adapter
+[21:09:21] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v6.1.3-SNAPSHOT;c904242
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world) Lava fire is blocked.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is blocked.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is blocked.
+[21:09:21] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:09:21] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:09:21] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:09:21] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:09:21] [Server thread/INFO]: Done (5,732s)! For help, type "help" or "?"
+[21:09:38] [Server thread/INFO]: Kalimink[/127.0.0.1:50689] logged in with entity id 327 at ([world]-80.65286755238705, 32.2000000476837, 257.72364102119394)
+[21:09:42] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2221ms behind, skipping 44 tick(s)
+[21:10:47] [Server thread/INFO]: Kalimink lost connection: Disconnected
+[21:10:47] [Server thread/INFO]: Kalimink left the game

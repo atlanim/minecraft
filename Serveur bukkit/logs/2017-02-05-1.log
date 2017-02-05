@@ -1,0 +1,23 @@
+[19:28:31] [Server thread/INFO]: Starting minecraft server version 1.11.2
+[19:28:31] [Server thread/WARN]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[19:28:31] [Server thread/INFO]: Loading properties
+[19:28:31] [Server thread/WARN]: server.properties does not exist
+[19:28:31] [Server thread/INFO]: Generating new properties file
+[19:28:31] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Descripteur non valide
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_121]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_121]
+	at java.io.BufferedInputStream.fill(Unknown Source) ~[?:1.8.0_121]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_121]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[craftbukkit.jar:git-Bukkit-dfe4ed1]
+	at net.minecraft.server.v1_11_R1.DedicatedServer$2.run(DedicatedServer.java:85) [craftbukkit.jar:git-Bukkit-dfe4ed1]
+[19:28:31] [Server thread/WARN]: Failed to load eula.txt
+[19:28:31] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[19:28:31] [Server thread/INFO]: Stopping server
